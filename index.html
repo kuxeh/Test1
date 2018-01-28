@@ -6,6 +6,7 @@
 </title>
 </head>
 <body>
+
 <style type="text/css">
       
 html { 
@@ -16,18 +17,55 @@ html {
   background-size: cover;
   
 
-
-}
-
-.box {
-  backdrop-filter: blur(500px);
-  /* background, width, height etc. */
 }
 
 
-  </style>
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+.canteen {
+	position: absolute;
+    left:30%;
+    top:50%;
+	width:auto;
+    height:auto;
+    max-width:30%;
+    max-height:30%;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.canteen:hover
+{
+	cursor: default;
+    transform: scaleX(-1);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.User {
+	position: absolute;
+    left:60%;
+    top:50%;
+	width:auto;
+    height:auto;
+    max-width:30%;
+    max-height:30%;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out 0s;
+
+
+}
+
+.User:hover
+{
+	cursor: default;
+    transform: scaleX(-1);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+</style>
+<img src="chef.png" class="canteen">
+<img src="ffa200.png" class="User">
+
+
+</div>
 
 </body>
 </html>
